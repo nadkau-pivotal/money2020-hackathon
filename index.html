@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GETTING STARTED WITH BRACKETS</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1><div align=center>PIVOTAL AT MONEY 20/20</div></h1>        
+        <ul>
+            <li><h3>Pivotal is proud to sponsor of “Midnight Snack” @ Money2020 Hackathon</h3></li>
+            <li><h3>Meet Pivotal experts on the show floor @Kiosk #K9</h3></li>
+            <li><h3>Request a Private Meeting with Pivotal contact <a href="mailto:ndirubio@pivotal.io">Nick DiRubio</a></h3></li>
+        </ul>
+        
+        <h2><div align=center><a href="http://www.money2020.com/2015-money2020-hackathon">Money 20/20 Hackathon</a></div></h2>
+        <div align=center><h3>24 hours / $125K of prizes</h3></div>
+        <div align=center><h3>Saturday Oct. 24 - Sunday Oc. 25, 2015 </h3></div>
+        
+        <!--
+            MADE WITH <3 AND JAVASCRIPT
+        -->
+        
+        <p>
+            On Saturday, Oct. 24, 2015, over 500 of the world’s most skilled developers from around the world representing the top 10 of Fintech’s most influential brands will engage in the Money20/20 Hackathon-the largest Fintech Hackathon globally. 
+            Hackers will have 24 hours to showcase their skills and vision using the APIs, SDKs and other tools from today’s leading innovators in Payments and Financial Services.
+        </p>
+        
+        <p>
+            <h3>First Data</h3> 
+    <b>Challenge:</b> First Data created the world’s most powerful global payments platforms. Then  brought  a simple API to market harness this power. Now show them what you can do. The First Data Challenge- find the most creative use of First Data’s API.
+<h3>First Data and Pivotal</h3>
+        First Data and Pivotal Team Up to Deliver Simple and Secure Payment Services to Spring Developers-This collaboration will enable developers to quickly integrate payments across eCommerce and Mobile 
+        </p>
+    
+    <p>
+        <h2>The Payeezy API</h2>
+    The Payeezy API, developed by <b>First Data Corporation</b>, exposes an API to make payments using a variety of options -- Credit Cards, PayPal, Apple Pay, Android Pay, Gift Cards and eChecks. Further, for merchants who don’t want to be PCI compliant, Payeezy API offers working with Tokens -- both FDTokens and Transarmor’s multi-use tokens -- instead of Credit Card information. Documentation to integrate with the Payeezy API is available at the <a href="https://developer.payeezy.com/">Payeezy Developers Portal.</a>
+    <h3>Come Hack with Us!</h3>
+    <p>
+        <h2>Payeezy Samples with Spring Boot</h2>
+    <b>Pivotal</b> has developed code samples, using Spring Boot, to illustrate calling the <b>First Data Payeezy API</b>. <a href="https://github.com/nadkau-pivotal/payeezy-samples">These samples are available in a Github repository.</a>
+    </p>
+    <p>
+    Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run". Boot takes an opinionated view of the Spring platform and third-party libraries so you can get started with minimum fuss. Most Spring Boot applications need very little Spring configuration.
+    </p>
+    <p>
+    Since its first milestone release in August 2013, Spring Boot has witnessed an explosive growth in its adoption. Last month alone saw over 1.6M downloads. A <a href="http://blog.pivotal.io/pivotal-cloud-foundry/features/mapping-the-cloud-native-journey">blog article by James Watters</a>, VP/GM Cloud Platform Group at Pivotal, describes Spring Boot’s applicability to Cloud Native Application Architectures.
+
+    </p>
+<div align=center>
+        <a href="screenshots/spring-boot-adoption.png">
+            <img alt="Adoption of Spring Boot" src="screenshots/spring-boot-adoption.png" />
+        </a>
+</div>
+    <p>
+        The diagram below shows Spring Boot as a point of focus on the larger Spring ecosystem. It presents a small surface area for users to approach and extract value from the rest of Spring:
+    </p>
+<div align=center>
+        <a href="screenshots/spring-boot.png">
+            <img alt="Spring Boot" src="screenshots/spring-boot.png" />
+        </a>
+</div>
+    <p>
+The primary goals of Spring Boot are:
+        <ul>
+<li>To provide a radically faster and widely accessible ‘getting started’ experience for all Spring development</li>
+<li>To be opinionated out of the box, but get out of the way quickly as requirements start to diverge from the defaults</li>
+<li>To provide a range of non-functional features that are common to large classes of projects (e.g. embedded servers, security, metrics, health checks, externalized configuration)</li>
+        </ul>
+Spring Boot does not generate code and there is absolutely no requirement for XML configuration.
+</p>
+
+<h3>It’s Simple to Deploy! </h3>
+
+<h2>Deploy the Samples to Pivotal Cloud Foundry</h2>
+To deploy the samples to a Cloud Native Platform like PCF, follow the steps below:
+<h3>Setup your PWS Account</h3>
+Pivotal Cloud Foundry allows you to deploy your applications either on a private virtualized environment like OpenStack or VMWare’s vSphere and vCloud Air or a public deployment like AWS. We’ll deploy the samples to Pivotal’s public deployment of PCF, called Pivotal Web Services (PWS), on AWS. To deploy applications on PWS, you will need to create an account on www.run.pivotal.io. You can sign up for a 60 day free trial of PWS at <a href="http://www.run.pivotal.io">www.run.pivotal.io.</a> When you create a PWS account, you are provided with credentials to push, monitor and manage applications on PWS.  
+
+<h3>Download, Install and Set Up the CF cli</h3>
+Cloud Foundry provides a command-line tool called CF cli to seamlessly “push” your applications to Pivotal Cloud Foundry. More information on downloading and installing the CF cli tool can be found <a href="http://docs.run.pivotal.io/starting/#install-login">here.</a> 
+Once you’ve downloaded and installed the CF cli, you may login into PWS using the CF cli. Logging into PWS targets it for deployment of your applications.
+
+<h3>Deploy your application to Pivotal Cloud Foundry</h3>
+Once you have downloaded and installed the CF cli, you are ready to push applications to Pivotal Cloud Foundry.  To push applications to Pivotal Cloud Foundry, run
+<p>
+<FONT FACE="courier">cf push APP-NAME</FONT>
+</p>
+<p>
+    <FONT FACE="courier">cf push</FONT> provides several deployment options. To view these options, run
+</p>
+<FONT FACE="courier">cf push --help</FONT>
+<p>
+You may also choose to set deployment parameters in a manifest file. To deploy applications with a manifest file, please see the section titled “Deploying with Application Manifests” <a href="http://docs.run.pivotal.io/devguide/deploy-apps/manifest.html">here.</a> 
+    </p>
+<p>
+A detailed tutorial on deploying applications to Pivotal Cloud Foundry is available <a href="http://docs.run.pivotal.io/devguide/deploy-apps/deploy-app.html">here.</a>
+</p>
+
+For more information contact us at <b>info@pivotal.io</b>
+
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->

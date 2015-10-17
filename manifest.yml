@@ -1,0 +1,7 @@
+---
+applications:
+- name: money2020-hackathon 
+  memory: 64M 
+  instances: 1 
+  host: money2020-hackathon
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
